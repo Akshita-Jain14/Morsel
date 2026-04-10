@@ -1,0 +1,11 @@
+{
+  "name": "morsel-food-ordering",
+  "version": "1.0.0",
+  "description": "A food ordering system using only Node.js built-ins — no external dependencies.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": ["food", "ordering", "nodejs"],
+  "license": "MIT"
+}

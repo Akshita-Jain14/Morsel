@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+    <rect width="400" height="300" fill="#fffaf0"/>
+    <!-- pizza shadow -->
+    <ellipse cx="202" cy="218" rx="112" ry="18" fill="#c8a870" opacity="0.2"/>
+    <!-- pizza base -->
+    <circle cx="200" cy="175" r="108" fill="#e8c878"/>
+    <!-- crust ring -->
+    <circle cx="200" cy="175" r="108" fill="none" stroke="#d4923a" stroke-width="18"/>
+    <!-- tomato sauce -->
+    <circle cx="200" cy="175" r="88" fill="#e04030"/>
+    <circle cx="200" cy="175" r="88" fill="url(#pizzagrad)"/>
+    <!-- mozzarella blobs -->
+    <circle cx="190" cy="168" r="22" fill="#fffef0" opacity="0.9"/>
+    <circle cx="225" cy="175" r="18" fill="#fffef0" opacity="0.85"/>
+    <circle cx="175" cy="190" r="20" fill="#fffef0" opacity="0.9"/>
+    <circle cx="215" cy="195" r="16" fill="#fffef0" opacity="0.8"/>
+    <circle cx="200" cy="158" r="14" fill="#fffef0" opacity="0.85"/>
+    <!-- cheese bubbles/brown spots -->
+    <circle cx="190" cy="162" r="5" fill="#d4a030" opacity="0.4"/>
+    <circle cx="228" cy="170" r="4" fill="#c89020" opacity="0.35"/>
+    <circle cx="180" cy="188" r="5" fill="#d4a030" opacity="0.4"/>
+    <!-- basil leaves -->
+    <ellipse cx="200" cy="165" rx="12" ry="5" fill="#2a8a1a" transform="rotate(-20,200,165)"/>
+    <ellipse cx="230" cy="183" rx="11" ry="5" fill="#3a9a2a" transform="rotate(15,230,183)"/>
+    <ellipse cx="170" cy="178" rx="11" ry="5" fill="#2a8a1a" transform="rotate(-35,170,178)"/>
+    <defs>
+      <radialGradient id="pizzagrad" cx="40%" cy="35%"><stop offset="0%" stop-color="#ff6040" stop-opacity="0.2"/><stop offset="100%" stop-color="#000" stop-opacity="0.05"/></radialGradient>
+    </defs>
+    <text x="200" y="256" text-anchor="middle" font-family="Georgia,serif" font-size="15" fill="#8a3010" font-weight="bold">Margherita Pizza</text>
+  </svg>

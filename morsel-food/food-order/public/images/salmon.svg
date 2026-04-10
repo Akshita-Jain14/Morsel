@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+    <rect width="400" height="300" fill="#f0f8ff"/>
+    <!-- plate -->
+    <ellipse cx="200" cy="210" rx="130" ry="30" fill="#e8e0d0" opacity="0.4"/>
+    <ellipse cx="200" cy="208" rx="118" ry="25" fill="white" opacity="0.6"/>
+    <!-- greens -->
+    <ellipse cx="160" cy="195" rx="35" ry="12" fill="#4a9a4a" transform="rotate(-15,160,195)"/>
+    <ellipse cx="155" cy="190" rx="28" ry="10" fill="#5aaa5a" transform="rotate(-25,155,190)"/>
+    <ellipse cx="240" cy="197" rx="28" ry="10" fill="#4a9a4a" transform="rotate(10,240,197)"/>
+    <!-- salmon fillet -->
+    <path d="M110 190 Q130 155 200 150 Q270 145 295 175 Q280 205 200 208 Q130 210 110 190Z" fill="#fa7f5a"/>
+    <path d="M110 190 Q130 155 200 150 Q270 145 295 175 Q280 205 200 208 Q130 210 110 190Z" fill="url(#salmongrad)"/>
+    <!-- grill marks -->
+    <path d="M145 162 Q200 158 255 164" stroke="#c84820" stroke-width="3" fill="none" opacity="0.4" stroke-linecap="round"/>
+    <path d="M140 172 Q200 168 262 174" stroke="#c84820" stroke-width="3" fill="none" opacity="0.3" stroke-linecap="round"/>
+    <path d="M142 182 Q200 178 258 184" stroke="#c84820" stroke-width="3" fill="none" opacity="0.3" stroke-linecap="round"/>
+    <!-- lemon slice -->
+    <circle cx="280" cy="168" r="18" fill="#f5e040" stroke="#e0c820" stroke-width="1.5"/>
+    <path d="M280 150 L280 186 M262 168 L298 168" stroke="#e0c820" stroke-width="1" opacity="0.6"/>
+    <!-- capers -->
+    <circle cx="175" cy="175" r="4" fill="#3a6a1a"/>
+    <circle cx="190" cy="165" r="3.5" fill="#3a6a1a"/>
+    <circle cx="215" cy="170" r="4" fill="#3a6a1a"/>
+    <!-- butter sauce -->
+    <path d="M150 195 Q200 200 250 193" stroke="#f0d060" stroke-width="3" fill="none" opacity="0.5" stroke-linecap="round"/>
+    <defs>
+      <radialGradient id="salmongrad" cx="40%" cy="35%"><stop offset="0%" stop-color="#fff" stop-opacity="0.3"/><stop offset="100%" stop-color="#c04000" stop-opacity="0.1"/></radialGradient>
+    </defs>
+    <text x="200" y="252" text-anchor="middle" font-family="Georgia,serif" font-size="15" fill="#2a5a7a" font-weight="bold">Grilled Salmon</text>
+  </svg>

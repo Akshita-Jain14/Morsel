@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+    <rect width="400" height="300" fill="#fdf3e7"/>
+    <circle cx="200" cy="160" r="90" fill="#c8841c" opacity="0.15"/>
+    <!-- plate -->
+    <ellipse cx="200" cy="200" rx="120" ry="30" fill="#e8d5b7" opacity="0.6"/>
+    <!-- arancini balls -->
+    <circle cx="170" cy="170" r="38" fill="#d4890a"/>
+    <circle cx="170" cy="170" r="38" fill="url(#crust1)" opacity="0.7"/>
+    <circle cx="225" cy="178" r="32" fill="#c07a08"/>
+    <circle cx="225" cy="178" r="32" fill="url(#crust2)" opacity="0.6"/>
+    <!-- crispy texture dots -->
+    <circle cx="158" cy="158" r="4" fill="#a05c00" opacity="0.5"/>
+    <circle cx="178" cy="152" r="3" fill="#a05c00" opacity="0.4"/>
+    <circle cx="165" cy="175" r="3" fill="#a05c00" opacity="0.4"/>
+    <circle cx="215" cy="168" r="3" fill="#8a4e00" opacity="0.4"/>
+    <circle cx="230" cy="172" r="2" fill="#8a4e00" opacity="0.4"/>
+    <!-- aioli dip -->
+    <ellipse cx="130" cy="195" rx="22" ry="10" fill="#fffde0" stroke="#e8d080" stroke-width="1.5"/>
+    <!-- herb garnish -->
+    <ellipse cx="200" cy="148" rx="12" ry="5" fill="#5a8a3a" transform="rotate(-20,200,148)"/>
+    <ellipse cx="212" cy="143" rx="10" ry="4" fill="#4a7a2a" transform="rotate(15,212,143)"/>
+    <!-- steam -->
+    <path d="M175 130 Q178 120 175 110" stroke="#ccc" stroke-width="2" fill="none" opacity="0.5" stroke-linecap="round"/>
+    <path d="M200 125 Q203 115 200 105" stroke="#ccc" stroke-width="2" fill="none" opacity="0.4" stroke-linecap="round"/>
+    <defs>
+      <radialGradient id="crust1" cx="40%" cy="35%"><stop offset="0%" stop-color="#fff" stop-opacity="0.3"/><stop offset="100%" stop-color="#000" stop-opacity="0.1"/></radialGradient>
+      <radialGradient id="crust2" cx="40%" cy="35%"><stop offset="0%" stop-color="#fff" stop-opacity="0.3"/><stop offset="100%" stop-color="#000" stop-opacity="0.1"/></radialGradient>
+    </defs>
+    <text x="200" y="248" text-anchor="middle" font-family="Georgia,serif" font-size="15" fill="#7a5c30" font-weight="bold">Truffle Arancini</text>
+  </svg>

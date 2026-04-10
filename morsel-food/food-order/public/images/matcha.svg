@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+    <rect width="400" height="300" fill="#f0faf0"/>
+    <!-- glass shadow -->
+    <ellipse cx="200" cy="244" rx="55" ry="10" fill="#4a8a2a" opacity="0.15"/>
+    <!-- glass body -->
+    <path d="M148 95 L158 238 Q200 248 242 238 L252 95 Z" fill="#e0f8e0" opacity="0.35"/>
+    <!-- oat milk layer bottom -->
+    <path d="M151 170 L159 238 Q200 247 241 238 L249 170 Z" fill="#f5f0e8" opacity="0.85"/>
+    <!-- matcha layer on top -->
+    <path d="M151 135 L159 172 L249 172 L249 135 Z" fill="#5aaa2a" opacity="0.75"/>
+    <path d="M151 135 L159 172 L249 172 L249 135 Z" fill="url(#matchagrad)"/>
+    <!-- gradient blend zone -->
+    <path d="M151 162 L249 162 L249 175 L151 175 Z" fill="url(#blendgrad)" opacity="0.6"/>
+    <!-- ice cubes -->
+    <rect x="170" y="178" width="26" height="26" rx="5" fill="white" opacity="0.65"/>
+    <rect x="200" y="185" width="24" height="24" rx="5" fill="white" opacity="0.55"/>
+    <rect x="178" y="208" width="22" height="22" rx="5" fill="white" opacity="0.6"/>
+    <!-- matcha powder dusting on top -->
+    <ellipse cx="200" cy="135" rx="60" ry="8" fill="#4a9a1a" opacity="0.4"/>
+    <!-- bubbles in oat milk -->
+    <circle cx="175" cy="195" r="4" fill="white" opacity="0.5"/>
+    <circle cx="220" cy="188" r="3.5" fill="white" opacity="0.45"/>
+    <circle cx="200" cy="225" r="3" fill="white" opacity="0.4"/>
+    <!-- straw -->
+    <rect x="215" y="80" width="9" height="155" rx="4.5" fill="#e8e8e8" opacity="0.85"/>
+    <rect x="216" y="81" width="3" height="153" rx="1.5" fill="white" opacity="0.4"/>
+    <!-- honey drizzle -->
+    <path d="M160 125 Q175 118 185 125 Q178 132 165 130" fill="#e8b020" opacity="0.7"/>
+    <!-- glass outline -->
+    <path d="M148 95 L158 238 Q200 248 242 238 L252 95 Z" fill="none" stroke="#6aaa3a" stroke-width="2" opacity="0.5"/>
+    <line x1="148" y1="95" x2="252" y2="95" stroke="#6aaa3a" stroke-width="2" opacity="0.5"/>
+    <defs>
+      <linearGradient id="matchagrad" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#fff" stop-opacity="0.2"/><stop offset="100%" stop-color="#2a6a00" stop-opacity="0.1"/></linearGradient>
+      <linearGradient id="blendgrad" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#5aaa2a" stop-opacity="0.6"/><stop offset="100%" stop-color="#f5f0e8" stop-opacity="0.8"/></linearGradient>
+    </defs>
+    <text x="200" y="268" text-anchor="middle" font-family="Georgia,serif" font-size="15" fill="#2a6a1a" font-weight="bold">Iced Matcha</text>
+  </svg>

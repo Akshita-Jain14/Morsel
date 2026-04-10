@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+    <rect width="400" height="300" fill="#fffdf5"/>
+    <!-- ramekin shadow -->
+    <ellipse cx="200" cy="232" rx="88" ry="14" fill="#c8a040" opacity="0.2"/>
+    <!-- ramekin body -->
+    <path d="M112 190 Q112 232 200 235 Q288 232 288 190 Z" fill="#f0e8d0"/>
+    <path d="M112 190 Q112 232 200 235 Q288 232 288 190 Z" fill="url(#ramgrad)"/>
+    <!-- ramekin rim -->
+    <ellipse cx="200" cy="190" rx="88" ry="20" fill="#e8d8b8"/>
+    <!-- caramel top -->
+    <ellipse cx="200" cy="185" rx="80" ry="17" fill="#c87820"/>
+    <ellipse cx="200" cy="185" rx="80" ry="17" fill="url(#caramelgrad)"/>
+    <!-- caramel crack lines -->
+    <path d="M175 183 L190 178 L200 182 L215 176 L230 181" stroke="#8a4800" stroke-width="2" fill="none" opacity="0.6" stroke-linecap="round"/>
+    <path d="M168 187 L178 183 L192 185 L205 180" stroke="#7a3800" stroke-width="1.5" fill="none" opacity="0.4" stroke-linecap="round"/>
+    <path d="M210 185 L222 180 L235 183 L245 179" stroke="#8a4800" stroke-width="1.5" fill="none" opacity="0.4" stroke-linecap="round"/>
+    <!-- burnt sugar gloss -->
+    <ellipse cx="185" cy="182" rx="25" ry="8" fill="url(#gloss2)" opacity="0.5"/>
+    <!-- cream showing at edge -->
+    <ellipse cx="200" cy="190" rx="80" ry="17" fill="#fffde8" opacity="0.15"/>
+    <!-- small fruit garnish -->
+    <circle cx="200" cy="174" r="7" fill="#c03030"/>
+    <path d="M200 167 L203 163" stroke="#4a8a1a" stroke-width="2" stroke-linecap="round"/>
+    <ellipse cx="205" cy="163" rx="5" ry="3" fill="#3a7a1a" transform="rotate(20,205,163)"/>
+    <defs>
+      <linearGradient id="ramgrad" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#fff" stop-opacity="0.2"/><stop offset="100%" stop-color="#000" stop-opacity="0.05"/></linearGradient>
+      <radialGradient id="caramelgrad" cx="40%" cy="35%"><stop offset="0%" stop-color="#f0a040" stop-opacity="0.5"/><stop offset="100%" stop-color="#8a4000" stop-opacity="0.2"/></radialGradient>
+      <radialGradient id="gloss2" cx="40%" cy="30%"><stop offset="0%" stop-color="#fff" stop-opacity="0.8"/><stop offset="100%" stop-color="#fff" stop-opacity="0"/></radialGradient>
+    </defs>
+    <text x="200" y="258" text-anchor="middle" font-family="Georgia,serif" font-size="15" fill="#7a4810" font-weight="bold">Crème Brûlée</text>
+  </svg>

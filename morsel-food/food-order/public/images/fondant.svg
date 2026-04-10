@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+    <rect width="400" height="300" fill="#1a1008" opacity="0.04"/>
+    <rect width="400" height="300" fill="#fdf5ec"/>
+    <!-- plate -->
+    <ellipse cx="200" cy="225" rx="115" ry="22" fill="#e0d0b8" opacity="0.4"/>
+    <!-- chocolate sauce pool -->
+    <ellipse cx="200" cy="215" rx="80" ry="18" fill="#3a1a00" opacity="0.3"/>
+    <!-- fondant body -->
+    <rect x="145" y="155" width="110" height="65" rx="8" fill="#2a1208"/>
+    <rect x="145" y="155" width="110" height="65" rx="8" fill="url(#chocgrad)"/>
+    <!-- lava flow -->
+    <path d="M185 220 Q200 215 215 220 Q212 228 200 230 Q188 228 185 220Z" fill="#c84000" opacity="0.7"/>
+    <path d="M190 218 Q200 213 210 218 Q208 225 200 227 Q192 225 190 218Z" fill="#e05000" opacity="0.6"/>
+    <!-- gloss on top -->
+    <rect x="155" y="158" width="90" height="20" rx="4" fill="url(#gloss)" opacity="0.4"/>
+    <!-- powdered sugar dusting -->
+    <circle cx="162" cy="158" r="3" fill="white" opacity="0.6"/>
+    <circle cx="175" cy="155" r="2" fill="white" opacity="0.5"/>
+    <circle cx="240" cy="160" r="2.5" fill="white" opacity="0.5"/>
+    <circle cx="228" cy="156" r="2" fill="white" opacity="0.4"/>
+    <!-- ice cream scoop -->
+    <circle cx="305" cy="178" r="30" fill="#fffde8"/>
+    <circle cx="305" cy="178" r="30" fill="url(#icegrad)"/>
+    <!-- ice cream texture -->
+    <path d="M290 170 Q305 165 320 170" stroke="#f0e8c0" stroke-width="2" fill="none" opacity="0.5"/>
+    <path d="M288 178 Q305 172 322 178" stroke="#f0e8c0" stroke-width="1.5" fill="none" opacity="0.4"/>
+    <!-- vanilla bean specks -->
+    <line x1="298" y1="173" x2="300" y2="177" stroke="#8a6020" stroke-width="1.5" opacity="0.4"/>
+    <line x1="310" y1="170" x2="312" y2="174" stroke="#8a6020" stroke-width="1.5" opacity="0.3"/>
+    <defs>
+      <linearGradient id="chocgrad" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#6a3010" stop-opacity="0.5"/><stop offset="100%" stop-color="#000" stop-opacity="0.3"/></linearGradient>
+      <linearGradient id="gloss" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#fff" stop-opacity="0.8"/><stop offset="100%" stop-color="#fff" stop-opacity="0"/></linearGradient>
+      <radialGradient id="icegrad" cx="35%" cy="30%"><stop offset="0%" stop-color="#fff" stop-opacity="0.5"/><stop offset="100%" stop-color="#e0c870" stop-opacity="0.1"/></radialGradient>
+    </defs>
+    <text x="200" y="258" text-anchor="middle" font-family="Georgia,serif" font-size="15" fill="#3a1a00" font-weight="bold">Chocolate Fondant</text>
+  </svg>

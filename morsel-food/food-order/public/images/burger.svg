@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+    <rect width="400" height="300" fill="#fff8f0"/>
+    <!-- plate -->
+    <ellipse cx="200" cy="228" rx="115" ry="22" fill="#e8d8c0" opacity="0.4"/>
+    <!-- bottom bun -->
+    <path d="M120 218 Q120 235 200 238 Q280 235 280 218 Q280 210 200 208 Q120 210 120 218Z" fill="#d4920a"/>
+    <path d="M120 218 Q120 235 200 238 Q280 235 280 218 Q280 210 200 208 Q120 210 120 218Z" fill="url(#bungrad)"/>
+    <!-- lettuce -->
+    <path d="M118 210 Q145 200 165 208 Q185 215 200 205 Q215 196 238 205 Q258 212 282 205 Q282 215 200 218 Q118 220 118 210Z" fill="#4aaa2a"/>
+    <path d="M118 210 Q135 205 155 210 Q175 215 200 207 Q225 200 248 207 Q268 212 282 207" stroke="#3a8a1a" stroke-width="1" fill="none"/>
+    <!-- tomato -->
+    <path d="M130 205 Q165 195 200 198 Q235 195 270 205 Q265 212 200 210 Q135 212 130 205Z" fill="#e83030" opacity="0.9"/>
+    <!-- cheese -->
+    <path d="M125 198 Q162 188 200 192 Q238 188 275 198 Q272 207 200 203 Q128 207 125 198Z" fill="#f0c030"/>
+    <!-- patty -->
+    <path d="M128 188 Q165 175 200 178 Q235 175 272 188 Q270 200 200 200 Q130 200 128 188Z" fill="#5a2a0a"/>
+    <path d="M128 188 Q165 175 200 178 Q235 175 272 188" stroke="#3a1500" stroke-width="2" fill="none" opacity="0.5"/>
+    <!-- second patty -->
+    <path d="M130 177 Q165 165 200 168 Q235 165 270 177 Q268 188 200 190 Q132 190 130 177Z" fill="#6a3a1a"/>
+    <!-- top bun -->
+    <path d="M130 175 Q130 145 200 138 Q270 145 270 175 Q270 180 200 182 Q130 180 130 175Z" fill="#e8a020"/>
+    <path d="M130 175 Q130 145 200 138 Q270 145 270 175 Q270 180 200 182 Q130 180 130 175Z" fill="url(#topbungrad)"/>
+    <!-- sesame seeds -->
+    <ellipse cx="185" cy="148" rx="5" ry="3" fill="#f5e8a0" transform="rotate(-20,185,148)"/>
+    <ellipse cx="205" cy="143" rx="5" ry="3" fill="#f5e8a0" transform="rotate(10,205,143)"/>
+    <ellipse cx="220" cy="150" rx="5" ry="3" fill="#f5e8a0" transform="rotate(-15,220,150)"/>
+    <ellipse cx="175" cy="155" rx="4" ry="2.5" fill="#f5e8a0" transform="rotate(25,175,155)"/>
+    <defs>
+      <radialGradient id="bungrad" cx="50%" cy="30%"><stop offset="0%" stop-color="#f0c040" stop-opacity="0.3"/><stop offset="100%" stop-color="#000" stop-opacity="0.05"/></radialGradient>
+      <radialGradient id="topbungrad" cx="40%" cy="25%"><stop offset="0%" stop-color="#fff" stop-opacity="0.3"/><stop offset="100%" stop-color="#000" stop-opacity="0.08"/></radialGradient>
+    </defs>
+    <text x="200" y="256" text-anchor="middle" font-family="Georgia,serif" font-size="15" fill="#6a3a10" font-weight="bold">Smash Burger</text>
+  </svg>

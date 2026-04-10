@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+    <rect width="400" height="300" fill="#faf0ff"/>
+    <!-- glass shadow -->
+    <ellipse cx="200" cy="244" rx="55" ry="10" fill="#8a3aaa" opacity="0.15"/>
+    <!-- glass body -->
+    <path d="M148 95 L158 238 Q200 248 242 238 L252 95 Z" fill="#f8e0ff" opacity="0.4"/>
+    <!-- smoothie liquid -->
+    <path d="M150 105 L159 238 Q200 247 241 238 L250 105 Z" fill="#c040c0" opacity="0.65"/>
+    <path d="M150 105 L159 238 Q200 247 241 238 L250 105 Z" fill="url(#smoothiegrad)"/>
+    <!-- foam top -->
+    <ellipse cx="200" cy="105" rx="50" ry="12" fill="#f0c0f0" opacity="0.7"/>
+    <ellipse cx="190" cy="103" rx="18" ry="6" fill="white" opacity="0.5"/>
+    <ellipse cx="215" cy="106" rx="14" ry="5" fill="white" opacity="0.4"/>
+    <!-- blueberries floating -->
+    <circle cx="180" cy="140" r="9" fill="#4a3a8a"/>
+    <circle cx="200" cy="155" r="8" fill="#5a4a9a"/>
+    <circle cx="220" cy="145" r="9" fill="#4a3a8a"/>
+    <circle cx="190" cy="170" r="7" fill="#6a5aaa"/>
+    <!-- banana pieces -->
+    <path d="M170 175 Q178 168 186 175 Q178 183 170 175Z" fill="#f0e040"/>
+    <path d="M210 165 Q218 158 226 165 Q218 173 210 165Z" fill="#e8d830"/>
+    <!-- yoghurt swirl -->
+    <path d="M185 120 Q200 113 215 120 Q205 130 200 127 Q195 130 185 120Z" fill="white" opacity="0.55"/>
+    <!-- straw with chevron pattern -->
+    <rect x="218" y="78" width="9" height="160" rx="4.5" fill="#e850c0" opacity="0.85"/>
+    <path d="M218 88 L227 88 M218 98 L227 98 M218 108 L227 108 M218 118 L227 118 M218 128 L227 128" stroke="white" stroke-width="1.5" opacity="0.5"/>
+    <!-- honey drizzle on top -->
+    <path d="M155 100 Q175 93 182 100 Q175 108 162 105" fill="#e8b020" opacity="0.6"/>
+    <!-- glass outline -->
+    <path d="M148 95 L158 238 Q200 248 242 238 L252 95 Z" fill="none" stroke="#a040c0" stroke-width="2" opacity="0.5"/>
+    <line x1="148" y1="95" x2="252" y2="95" stroke="#a040c0" stroke-width="2" opacity="0.5"/>
+    <defs>
+      <radialGradient id="smoothiegrad" cx="35%" cy="35%"><stop offset="0%" stop-color="#e060e0" stop-opacity="0.3"/><stop offset="100%" stop-color="#8a1a8a" stop-opacity="0.1"/></radialGradient>
+    </defs>
+    <text x="200" y="268" text-anchor="middle" font-family="Georgia,serif" font-size="15" fill="#6a1a8a" font-weight="bold">Berry Smoothie</text>
+  </svg>

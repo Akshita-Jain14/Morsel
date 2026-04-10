@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+    <rect width="400" height="300" fill="#f5faf0"/>
+    <!-- plate -->
+    <ellipse cx="200" cy="210" rx="130" ry="32" fill="#e8e0d0" opacity="0.5"/>
+    <!-- tomatoes -->
+    <circle cx="150" cy="185" r="28" fill="#e84040"/>
+    <circle cx="150" cy="185" r="28" fill="url(#tomgrad)" opacity="0.5"/>
+    <circle cx="250" cy="188" r="24" fill="#d43030"/>
+    <circle cx="250" cy="188" r="24" fill="url(#tomgrad)" opacity="0.4"/>
+    <circle cx="200" cy="195" r="20" fill="#e05050"/>
+    <!-- burrata ball -->
+    <circle cx="195" cy="168" r="42" fill="#fffef5" stroke="#f0e8d0" stroke-width="2"/>
+    <circle cx="195" cy="168" r="42" fill="url(#burgrad)"/>
+    <!-- cream spill -->
+    <path d="M195 168 Q200 180 210 188 Q200 192 190 188 Q178 180 195 168Z" fill="#fff8e0" opacity="0.8"/>
+    <!-- basil leaves -->
+    <ellipse cx="155" cy="175" rx="14" ry="6" fill="#3a8a2a" transform="rotate(-30,155,175)"/>
+    <ellipse cx="245" cy="178" rx="12" ry="5" fill="#4a9a3a" transform="rotate(20,245,178)"/>
+    <ellipse cx="200" cy="148" rx="11" ry="5" fill="#3a8a2a" transform="rotate(-10,200,148)"/>
+    <!-- balsamic drizzle -->
+    <path d="M160 200 Q180 195 200 200 Q220 205 240 198" stroke="#4a1a00" stroke-width="2.5" fill="none" opacity="0.6" stroke-linecap="round"/>
+    <defs>
+      <radialGradient id="tomgrad" cx="35%" cy="35%"><stop offset="0%" stop-color="#fff" stop-opacity="0.4"/><stop offset="100%" stop-color="#000" stop-opacity="0"/></radialGradient>
+      <radialGradient id="burgrad" cx="35%" cy="30%"><stop offset="0%" stop-color="#fff" stop-opacity="0.6"/><stop offset="70%" stop-color="#fff" stop-opacity="0"/></radialGradient>
+    </defs>
+    <text x="200" y="252" text-anchor="middle" font-family="Georgia,serif" font-size="15" fill="#4a6a30" font-weight="bold">Burrata Salad</text>
+  </svg>

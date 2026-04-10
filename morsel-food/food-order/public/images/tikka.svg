@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+    <rect width="400" height="300" fill="#fff8f0"/>
+    <!-- bowl shadow -->
+    <ellipse cx="200" cy="228" rx="112" ry="18" fill="#c88840" opacity="0.2"/>
+    <!-- bowl -->
+    <path d="M88 162 Q86 230 200 235 Q314 230 312 162 Z" fill="#f0e0c8"/>
+    <!-- curry sauce -->
+    <ellipse cx="200" cy="160" rx="112" ry="30" fill="#e06020"/>
+    <ellipse cx="200" cy="160" rx="112" ry="30" fill="url(#currygrad)"/>
+    <!-- cream swirls -->
+    <path d="M175 155 Q190 145 205 155 Q195 165 175 155Z" fill="white" opacity="0.7"/>
+    <path d="M215 158 Q228 148 240 156 Q232 165 215 158Z" fill="white" opacity="0.6"/>
+    <!-- chicken pieces -->
+    <path d="M158 168 Q170 152 185 160 Q178 175 162 172 Z" fill="#c84020"/>
+    <path d="M158 168 Q170 152 185 160 Q178 175 162 172 Z" fill="url(#chickgrad)"/>
+    <path d="M195 163 Q208 148 222 157 Q215 172 198 169 Z" fill="#d04828"/>
+    <path d="M195 163 Q208 148 222 157 Q215 172 198 169 Z" fill="url(#chickgrad)"/>
+    <path d="M228 170 Q240 156 253 165 Q247 179 231 176 Z" fill="#c84020"/>
+    <!-- char marks on chicken -->
+    <path d="M165 162 Q172 157 178 163" stroke="#7a2000" stroke-width="2" fill="none" opacity="0.5"/>
+    <path d="M202 166 Q210 160 216 165" stroke="#7a2000" stroke-width="2" fill="none" opacity="0.5"/>
+    <!-- naan bread -->
+    <path d="M95 195 Q100 175 130 172 Q155 170 160 185 Q155 205 125 208 Q95 210 95 195Z" fill="#e8c078"/>
+    <path d="M95 195 Q100 175 130 172 Q155 170 160 185 Q155 205 125 208 Q95 210 95 195Z" fill="url(#naangrad)" opacity="0.5"/>
+    <!-- naan char dots -->
+    <circle cx="120" cy="185" r="6" fill="#c08020" opacity="0.4"/>
+    <circle cx="138" cy="180" r="5" fill="#c08020" opacity="0.3"/>
+    <!-- coriander -->
+    <circle cx="200" cy="148" r="4" fill="#4a9a2a"/>
+    <circle cx="215" cy="145" r="3.5" fill="#3a8a1a"/>
+    <circle cx="185" cy="146" r="3" fill="#4a9a2a"/>
+    <defs>
+      <radialGradient id="currygrad" cx="40%" cy="35%"><stop offset="0%" stop-color="#ff9040" stop-opacity="0.3"/><stop offset="100%" stop-color="#000" stop-opacity="0.05"/></radialGradient>
+      <radialGradient id="chickgrad" cx="35%" cy="30%"><stop offset="0%" stop-color="#fff" stop-opacity="0.3"/><stop offset="100%" stop-color="#000" stop-opacity="0.1"/></radialGradient>
+      <radialGradient id="naangrad" cx="40%" cy="30%"><stop offset="0%" stop-color="#fff" stop-opacity="0.4"/><stop offset="100%" stop-color="#000" stop-opacity="0.05"/></radialGradient>
+    </defs>
+    <text x="200" y="256" text-anchor="middle" font-family="Georgia,serif" font-size="15" fill="#8a3010" font-weight="bold">Chicken Tikka</text>
+  </svg>

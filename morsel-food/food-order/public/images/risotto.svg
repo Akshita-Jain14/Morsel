@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+    <rect width="400" height="300" fill="#faf5ec"/>
+    <!-- bowl shadow -->
+    <ellipse cx="200" cy="225" rx="110" ry="18" fill="#c8a870" opacity="0.2"/>
+    <!-- bowl -->
+    <path d="M90 160 Q88 228 200 233 Q312 228 310 160 Z" fill="#f5efe0"/>
+    <!-- risotto -->
+    <ellipse cx="200" cy="158" rx="110" ry="30" fill="#f0d878"/>
+    <ellipse cx="200" cy="158" rx="110" ry="30" fill="url(#rgrad)"/>
+    <!-- rice texture -->
+    <ellipse cx="178" cy="152" rx="8" ry="4" fill="#e8c840" opacity="0.6" transform="rotate(-20,178,152)"/>
+    <ellipse cx="200" cy="148" rx="8" ry="4" fill="#e8c840" opacity="0.5" transform="rotate(10,200,148)"/>
+    <ellipse cx="222" cy="153" rx="8" ry="4" fill="#e8c840" opacity="0.6" transform="rotate(-15,222,153)"/>
+    <ellipse cx="188" cy="162" rx="7" ry="3" fill="#d8b830" opacity="0.5" transform="rotate(25,188,162)"/>
+    <ellipse cx="214" cy="163" rx="7" ry="3" fill="#d8b830" opacity="0.4" transform="rotate(-10,214,163)"/>
+    <!-- mushrooms -->
+    <path d="M165 155 Q172 140 182 148 Q175 158 165 155Z" fill="#8a6040"/>
+    <path d="M215 150 Q225 136 233 145 Q225 155 215 150Z" fill="#7a5030"/>
+    <path d="M190 145 Q198 132 206 141 Q200 150 190 145Z" fill="#8a6040"/>
+    <!-- parmesan shavings -->
+    <path d="M175 165 Q185 160 192 167" stroke="#f5f0d0" stroke-width="4" fill="none" opacity="0.7" stroke-linecap="round"/>
+    <path d="M205 162 Q217 156 225 162" stroke="#f5f0d0" stroke-width="3.5" fill="none" opacity="0.6" stroke-linecap="round"/>
+    <!-- thyme sprig -->
+    <path d="M200 138 L200 128 M196 133 L204 133 M197 130 L203 130" stroke="#5a8a3a" stroke-width="1.5" fill="none"/>
+    <!-- steam -->
+    <path d="M180 132 Q183 120 180 108" stroke="#ddd" stroke-width="2" fill="none" opacity="0.5" stroke-linecap="round"/>
+    <path d="M220 130 Q223 118 220 106" stroke="#ddd" stroke-width="2" fill="none" opacity="0.4" stroke-linecap="round"/>
+    <defs>
+      <radialGradient id="rgrad" cx="40%" cy="35%"><stop offset="0%" stop-color="#fff" stop-opacity="0.4"/><stop offset="100%" stop-color="#c08000" stop-opacity="0.1"/></radialGradient>
+    </defs>
+    <text x="200" y="256" text-anchor="middle" font-family="Georgia,serif" font-size="15" fill="#6a4a10" font-weight="bold">Mushroom Risotto</text>
+  </svg>
